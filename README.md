@@ -2,8 +2,8 @@
 
 ## Objective
 
-YOLOv3 is an improved version of YOLOv2 that has greater accuracy ans mAP score.
-In this project I'd like to build an object detection network with a YOLOv3 pre-trained model and see 
+YOLOv3 is an improved version of YOLOv2 that has greater accuracy and mAP score.
+Here I'd like to build an object detection network with a YOLOv3 pre-trained model and see 
 how it works. This YOLOv3 model is trained on MS-COCO dataset that can detect 90 different classes of objects 
 like cars, trucks, bikes, people and many more!
 
@@ -14,7 +14,7 @@ like cars, trucks, bikes, people and many more!
 * Tensorflow-gpu 2.0.0
 * Tensornets 0.4.6
 
-Please see [environment.yml](./environment.yml) for more requirements. 
+See more requirements in [environment.yml](./environment.yml). 
 
 ## Prepare
 
