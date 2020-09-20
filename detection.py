@@ -11,9 +11,7 @@ import cv2
 import time
 import numpy as np
 import tensornets as nets
-# import tensorflow as tf   # tensorflow 1.x
-import tensorflow.compat.v1 as tf   # tensorflow 2.0
-tf.disable_v2_behavior()
+import tensorflow as tf
 
 
 class ObjectDetector:

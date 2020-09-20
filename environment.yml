@@ -10,8 +10,6 @@ dependencies:
     - opencv-python==4.4.0.42
     - scipy==1.4.1
     - six==1.15.0
-    - tensorboard==2.0.2
-    - tensorflow-estimator==2.0.1
-    - tensorflow-gpu==2.0.0
+    - tensorflow-gpu==1.15.0
     - tensornets==0.4.6
 

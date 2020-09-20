@@ -2,16 +2,15 @@
 
 ## Objective
 
-YOLOv3 is an improved version of YOLOv2 that has greater accuracy and mAP score.
-Here I'd like to build an object detection network with a YOLOv3 pre-trained model and see 
-how it works. This YOLOv3 model is trained on MS-COCO dataset that can detect 90 different classes of objects 
-like cars, trucks, bikes, people and many more!
+YOLO ("You Only Look Once") is one of the fastest object detection algorithm that uses convolutional neural networks. 
+Here I use a YOLOv3 pre-trained model of tensornets for object detection and see how it works. 
+This YOLOv3 model is trained on MS-COCO dataset that can detect about 90 different classes of objects like cars, trucks, bikes, people and many more!
 
 ## Dependencies & Environment
 * Ubuntu 16.04
 * Python 3.6
 * OpenCV 4.4.0
-* Tensorflow-gpu 2.0.0
+* Tensorflow-gpu 1.15.0
 * Tensornets 0.4.6
 
 See more requirements in [environment.yml](./environment.yml). 
@@ -20,7 +19,7 @@ See more requirements in [environment.yml](./environment.yml).
 
 Install **tensorflow-gpu** to use gpu for calculation.
 ```sh
-pip install tensorflow-gpu
+pip install tensorflow-gpu==1.15.0
 ```
 
 Install **tensornets**, a PyPi library which converts various popular networks' weights into 
